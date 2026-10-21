@@ -3,7 +3,7 @@
 public class Teacher : BaseEntity
 {
     public int Id { get; set; }
-    public string Institution { get; set; } = null!
+    public string Institution { get; set; } = null!;
     public string? PhoneNumber { get; set; }
 
     public int UserId { get; set; }
